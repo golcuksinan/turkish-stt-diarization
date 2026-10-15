@@ -1,0 +1,13 @@
+# Beyaz liste: her şey dışarıda, sadece aşağıda adı geçenler içeride.
+# Kökte ses kayıtları, transkriptler (başkalarının sözleri), .env (HF token),
+# model ve kişisel notlar duruyor; yeni bir dosya kendiliğinden depoya girmesin.
+# Alt klasör eklenecekse hem klasörü hem içini aç:  !docs/  ve  !docs/**
+*
+
+!.gitignore
+!README.md
+!LICENSE
+!main.py
+!bench.py
+!.env.example
+!requirements-frozen.txt
